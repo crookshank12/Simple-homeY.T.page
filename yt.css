@@ -1,0 +1,176 @@
+body{
+    margin:0;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.nav-bar{
+    height: 70px;
+    display:flex;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    background-color: white;
+}
+.subscri{
+    width: 48px;
+}
+.lib{
+    width: 35px;
+}
+.side{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin-left:14px;
+}
+.left{
+    display: flex;
+}
+.menu{
+   width: 34px;
+}
+.img1{
+    margin-top: 15px;
+    margin-left: 18px;
+}
+.img2{
+    margin-left:45px;
+}
+.yt-logo{
+    display: inline-block;
+    width:120px;
+        margin-left: -31px;   
+}
+.menu{
+    width:45px;
+}
+.look{
+    flex:1;
+    height: 45px;
+    padding-left:5px;
+    font-size:16px;
+    border-width:1px;
+    border-style:solid ;
+    border-color: gray;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.12);
+
+}
+
+.look::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.middle{
+   margin-right :225px;
+   margin-left:250px;
+   max-width: 500px;
+   display: flex;
+   flex:1;
+   border-radius: 4;
+   align-items: center;
+}
+.search{
+    width: 50px;
+    height: 45px;
+    border-width:1px;
+    border-style: solid;
+    border-color:grey;
+
+}
+.micro{
+    width: 45px;
+    height: 45px;
+    margin-left:16px;
+    border-radius: 23px;
+    border:none;
+    background-color: #e0dede;
+}
+.micro-sub{
+    height:22px;
+    background-color:#e0dede;
+}
+.upload{
+    margin-top:13px;
+}
+.upload-1{
+    height: 28px;
+}
+.notification{
+   
+    margin-top:12px;
+}
+.noti{
+    width: 23px;
+    height: 25px;
+    margin-left :30px;
+    margin-top: 10px;
+}
+.acc{
+    margin-left:27px;
+    margin-top: 11px; 
+    margin-left: 38px;
+   
+}
+.account{
+    width: 45px;
+    height:45px;
+}
+.right{
+    width:200px;
+    display:flex;
+    
+}
+.imgsub{
+    width: 100%;
+    height:190px;
+    border-radius: 15px;
+}
+
+.para p{
+    margin-top: 0;
+padding-left: 16px;
+}
+.p2,.p3{
+    margin-top: 0;
+    font-size: 13px;
+    color:rgb(96,96,96)
+}
+.p2{
+    margin-bottom: 5px;
+}
+.p1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width:246px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.logo{
+    vertical-align:top;
+}
+.logo1{
+    width: 100%;
+    height:42px;
+    border-radius: 55px;
+}
+.grid-layout{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    
+   }
+.grid-main{
+    display:grid;
+grid-template-columns: 1fr 1fr 1fr ;
+column-gap: 20px;
+row-gap: 40px;
+}
+.side{
+    position: fixed;
+    top:65px;
+    bottom: 0;
+    left:0;
+    background-color: white;
+    width:73px;
+}
